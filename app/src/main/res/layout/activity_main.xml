@@ -14,7 +14,7 @@ tools:context=".MainActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="이름 : "/>
+        android:text="이름: "/>
 
     <EditText
         android:id="@+id/edtName"
@@ -31,7 +31,7 @@ tools:context=".MainActivity">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="인원 : "/>
+        android:text="인원: "/>
 
     <EditText
         android:id="@+id/edtNumber"

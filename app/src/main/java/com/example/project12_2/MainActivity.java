@@ -86,8 +86,8 @@ public class MainActivity extends AppCompatActivity {
                 Cursor cursor;
                 cursor = sqlDB.rawQuery("SELECT * FROM groupTBL;", null);
 
-                String strNames = "그룹 이름" + "\r\n" + "--------------------" + "\r\n";
-                String strNumbers =  "인원" + "\r\n" + "--------------------" + "\r\n";
+                String strNames = "그룹 이름" + "\r\n" + "-------------------" + "\r\n";
+                String strNumbers =  "인원" + "\r\n" + "-------------------" + "\r\n";
 
                 while (cursor.moveToNext()){
                     strNames += cursor.getString(0) +"\r\n";
